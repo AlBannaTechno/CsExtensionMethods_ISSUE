@@ -7,6 +7,7 @@ namespace ProjectB
 {
     public static class XBAEx
     {
+        // TODO rename this to DoX, and compilation will works.
         public static void Do(this XA xa)
         {
             
