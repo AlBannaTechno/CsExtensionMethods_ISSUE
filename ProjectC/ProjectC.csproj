@@ -39,6 +39,13 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="XC.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\ProjectB\ProjectB.csproj">
+        <Project>{3fd02fac-db03-4551-a14e-658b1df41bf7}</Project>
+        <Name>ProjectB</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
